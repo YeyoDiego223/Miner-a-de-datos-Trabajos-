@@ -1,0 +1,89 @@
+/* Fondo verde para toda la página */
+body {
+    background-color: #2e8b57; /* Verde oscuro */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilo para los formularios y campos */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, select, button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #a9a9a9; /* Gris */
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #808080; /* Gris oscuro */
+}
+
+/* Estilo para los mensajes */
+.mensaje {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces de acción */
+.action img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.action-title {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #0056b3;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* Estilo para el formulario de cerrar sesión */
+.logout {
+    text-align: center;
+    margin-top: 50px;
+}

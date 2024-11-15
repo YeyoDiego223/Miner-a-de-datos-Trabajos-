@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+
+    <?php
+    if (isset($_GET['nombre']) && isset($_GET['apellido'])) {
+        $nombre = $_GET['nombre'];
+        $email = $_GET['email'];
+        // Puedes agregar más campos según necesites
+
+        echo "<p>Nombre: $nombre</p>";
+        echo "<p>Email: $email</p>";
+        // Puedes agregar más campos según necesites
+    } else {
+        echo "<p>No se han pasado datos.</p>";
+    }
+    ?>
+</body>
+</html>
